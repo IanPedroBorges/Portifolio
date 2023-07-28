@@ -1,0 +1,51 @@
+.mainProject {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainProject h1,p {
+    font-size: 2rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+.mainProject h1 {
+    color: #3a0ca3;
+}
+
+.listBtn > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.listBtn > ul > li {
+    margin-top: 1rem;
+    list-style: none;
+}
+
+.listBtn > ul > li > button {
+    padding: 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 1em;
+    color: #adb5bd;
+    background-color: #480ca8;
+}
+
+.listBtn > ul > li > button:hover {
+    color: #b8bec5;
+    background-color: #6526ca;
+    cursor: pointer;
+}
+
+@media (max-width: 700px) {
+    .mainProject p {
+        font-size: 1rem;
+        margin: 1rem;
+    }
+    .listBtn > ul > li > button {
+        padding: 0.7rem;
+        font-size: 0.8rem;
+    }
+}
