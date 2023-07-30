@@ -1,0 +1,52 @@
+.FooterContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 200px;
+}
+
+.icon > img {
+  width: 97px;
+  height: 59px;
+  flex-shrink: 0;
+  margin-left: 80px;
+}
+
+.containerText {
+  display: flex;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.info > ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.info > ul > li {
+  margin-right: 48px;
+}
+
+.iconsList {
+  display: flex;
+}
+
+.iconsList > ul {
+  display: flex;
+  list-style: none;
+}
+
+.iconsList > ul > li {
+  margin-right: 20px;
+  width: 30px;
+  height: 29.26px;
+  flex-shrink: 0;
+  fill: #a7a7a7;
+}

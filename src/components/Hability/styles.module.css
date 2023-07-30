@@ -1,0 +1,31 @@
+.hability {
+  display: flex;
+  margin-top: 200px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text > h2 {
+  color: #ccc;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.cardContainer {
+  display: flex;
+  margin-top: 145px;
+  flex-flow: row wrap;
+  width: 75vw;
+  gap: 104px;
+  justify-content: center;
+}
+
+.card > img {
+    height: 119px;
+    width: 120px;
+}

@@ -8,5 +8,10 @@ body {
   font-family: "Diphylleia", serif;
   font-family: "Roboto", sans-serif;
   background-color:#0A0908;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   color: #adb5bd;
+  width: 100vw;
+  overflow-x: hidden;
 }

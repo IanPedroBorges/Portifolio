@@ -1,0 +1,93 @@
+.ProjectContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  margin-top: 150px;
+  margin-bottom: 99px;
+}
+
+.text > h2 {
+  color: #ccc;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.ProjectCard {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 48px;
+  width: 80vw;
+}
+
+.ProjectCard > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 373px;
+  height: 567px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #363636;
+  box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.2);
+}
+
+.ProjectCard > div > img {
+  width: 375px;
+  height: 260px;
+  flex-shrink: 0;
+  border-radius: 20px 20px 0px 0px;
+  background: lightgray 50% / cover no-repeat, #d9d9d9;
+  box-shadow: 2px 2px 100px 0px rgba(255, 255, 255, 0.2);
+}
+
+.ProjectCard > div > h3 {
+  margin-top: 27px;
+  color: #ccc;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.ProjectCard > div > p {
+  margin-top: 17px;
+  width: 314px;
+  color: #ccc;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 26px;
+}
+
+.ProjectCard > div > ul {
+  list-style: none;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 20px;
+  border: none;
+}
+
+.ProjectCard > div > ul > li > a{
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  text-decoration-line: underline;
+  display: flex;
+  gap: 10px;
+}
